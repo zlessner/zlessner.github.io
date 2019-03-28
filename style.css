@@ -86,7 +86,7 @@ a{
     grid-row-start:3;
     border: solid #CBBA80 1px;
     white-space: nowrap;
-   
+    height: 150px;
 }
 
 .Info
