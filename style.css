@@ -1,5 +1,6 @@
 body {
-    background-color:#edeef0;
+    background-color:#E3D9B8;
+    font-family: 'Muli', serif;
     display:grid;
     grid-template-columns: 1fr 5fr 1fr;
   grid-template-rows: 1fr 2fr 3fr 1fr;
@@ -9,7 +10,7 @@ body {
 }
 header {
 text-align:center;
-grid-column-start: 2;
+grid-column-start: 1;
     grid-row: 1;
 }
 
@@ -23,7 +24,7 @@ grid-column-start: 2;
     grid-column-start: 2;
     grid-row: 2;
     padding: 1px 1px;
-    margin: -75px 10px;
+    margin: -25px 10px;
 }
 
 .main-pic 
@@ -35,7 +36,7 @@ grid-column-start: 2;
         margin-left: auto;
         margin-right: auto;
         grid-column-start: 1;
-        grid-row-start:1;
+        grid-row-start:2;
 
   }
 
@@ -45,10 +46,10 @@ grid-column-start: 2;
     top: 0; /* Stay at the top */
     left: 0;
     padding: 2px 2px;
-    border: solid tan 1px;
+    border: solid #CBBA80 1px;
     display: inline-block;
     grid-column-start: 2;
-    grid-row: 2;
+    grid-row: 1;
 
     
 }
@@ -60,24 +61,24 @@ a{
 .links
 
 {
-    color:black;
+    color:blue;
     margin: 2px 2px;
     padding: 3px 3px;
     display: inline-block;
 }
 
 .links:hover {
-    color:blue;
     background-color: white;
 }
 
 .Contact {
-    margin: 40px 2px;
+    margin: 40px 2px 0px 2px;
     padding: 2px 2px;
     display: inline-block;
     grid-column-start: 1;
-    grid-row-start:2;
-    border: solid tan 1px;
+    grid-row-start:3;
+    border: solid #CBBA80 1px;
+    white-space: nowrap;
    
 }
 
@@ -104,3 +105,23 @@ footer
         max-height: 50px;
 }
 
+.GitHub-icon {
+    height: auto; 
+        width: auto; 
+        max-width: 50px; 
+        max-height: 50px;
+}
+
+.Email-icon {
+    height: auto; 
+        width: auto; 
+        max-width: 50px; 
+        max-height: 50px;
+}
+
+.Phone-icon {
+    height: auto; 
+        width: auto; 
+        max-width: 50px; 
+        max-height: 50px;
+}
