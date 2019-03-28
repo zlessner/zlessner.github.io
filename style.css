@@ -1,0 +1,51 @@
+body {
+    background-color:#1891e9;
+   
+    
+   
+}
+header {
+text-align:left;
+}
+
+
+    
+
+
+.main-pic 
+    {
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;
+        margin: left;
+
+  }
+
+  .nav-bar
+{
+    text-align:left;
+
+    
+}
+
+a{ 
+    color: inherit; 
+  }
+
+.links
+
+{
+    color:black;
+    margin: 2px 2px;
+    padding: 1px 1px;
+    border: 1px solid black;
+}
+
+.links:hover {
+    color:blue;
+}
+
+
+
+    
