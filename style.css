@@ -12,11 +12,20 @@ header {
 text-align:center;
 grid-column-start: 1;
     grid-row: 1;
+    background-color: #7FFFD4;
+}
+
+.top-color
+{
+    background-color: #7FFFD4;
+    grid-column-start:3;
+    grid-row-start:1; 
 }
 
 .subhead
 {
     text-align: center;
+    margin-top: 30px;
 }
 
     
@@ -35,21 +44,19 @@ grid-column-start: 1;
         max-height: 300px;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 30px;
         grid-column-start: 1;
         grid-row-start:2;
 
   }
 
   .nav-bar
-{
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    padding: 2px 2px;
-    border: solid #CBBA80 1px;
+{   padding: 2px 2px;
     display: inline-block;
     grid-column-start: 2;
     grid-row: 1;
+    text-align: center;
+    background-color: #7FFFD4;
 
     
 }
