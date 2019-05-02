@@ -6,7 +6,7 @@
     <title>Zachary Lessner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
 </head>
 <body>
@@ -19,22 +19,14 @@
     <div class="top-color"></div>
 
     <nav class="nav-bar"> 
-            <div class="links About-Me" onclick='document.getElementById("content").innerHTML = "This is all about me!"'>About Me </div> 
-            <div class="links Projects" onclick='document.getElementById("content").innerHTML = "Here are my projects!"'>Projects </div> 
-           <div class="links Experience"> <a href="/Experience/">Experience</a> </div>
-          <div class="links Inspiration-Articles"> <a href="/Passions/">Inspiration Articles</a> </div> </nav> 
+            <div class="links Me">About Me </div> 
+            <div class="links Projects"> Projects </div> 
+           <div class="links Experience"> Experience </div>
+          <div class="links Inspiration-Articles">Inspiration Articles </div> </nav>      
 
-
-          
-            
-
-            <div class="main">
-                 <h2 class="subhead"> About Me </h2>
-
-   <p id="content"> Hello, and welcome to my porfolio! I would love to tell you a little bit about myself. I am an aspiring software engineer,
-         skilled in creating sports modules. </p>
-         
-        </div>
+   <div class="content"> 
+   <h2 class="subhead"> About Me </h2>
+   </div>
 
         
         <img src="Zack-Lessner_Feb16.jpg" alt="Zack's Portfolio" class="main-pic" >
