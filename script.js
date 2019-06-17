@@ -11,7 +11,7 @@ let node2 = document.createTextNode("Here are my projects!");
 
 let node3 = document.createTextNode("exp"); 
 
-let node4 = document.createTextNode("insp"); 
+let node4 = document.createTextNode("insp");
 
 
 let contentArray=[node1,node2,node3,node4]
